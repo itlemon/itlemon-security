@@ -1,0 +1,13 @@
+# ??????
+spring:
+  security:
+    user:
+      name: user
+      password: 123456
+  mvc:
+    view:
+      suffix: .html
+    static-path-pattern: /static/**
+  web:
+    resources:
+      static-locations: classpath:templates/,classpath:static/
